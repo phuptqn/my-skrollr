@@ -1,5 +1,31 @@
 [![Build Status](https://secure.travis-ci.org/Prinzhorn/skrollr.png)](http://travis-ci.org/Prinzhorn/skrollr)
 
+Phú PT edited to scrollr inside a div other than body tag
+==============
+
+```javascript
+/**
+ * Constructor.
+ */
+function Skrollr(options) {
+	
+	// Edited this line
+	documentElement = options.documentElement ? document.getElementById(options.documentElement) : document.documentElement;
+	
+	body = document.body;
+```
+
+**Using**
+
+```javascript
+var s = skrollr.init({
+	documentElement: "mainScroll", 	// Element Id
+	forceHeight: false 				// this line is required to not resizing the body
+});
+```
+
+**End Phú PT**
+
 skrollr 0.6.30
 ==============
 
