@@ -3,6 +3,8 @@
 Phú PT edited
 ==============
 
+_The original repo here [https://github.com/Prinzhorn/skrollr](https://github.com/Prinzhorn/skrollr)_
+
 **To scroll inside a div other than the body**
 
 File _skrollr.js_
