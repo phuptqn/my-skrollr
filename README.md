@@ -1,8 +1,11 @@
 [![Build Status](https://secure.travis-ci.org/Prinzhorn/skrollr.png)](http://travis-ci.org/Prinzhorn/skrollr)
 
-Phú PT edited to scrollr inside a div other than body tag
+Phú PT edited
 ==============
 
+**To scroll inside a div other than the body**
+
+File _skrollr.js_
 ```javascript
 /**
  * Constructor.
@@ -17,11 +20,14 @@ function Skrollr(options) {
 
 **Using**
 
-```javascript
+```html
+<script type="text/javascript" src="skrollr.min.js"></script>
+<script type="text/javascript">
 var s = skrollr.init({
 	documentElement: "mainScroll", 	// Element Id
 	forceHeight: false 				// this line is required to not resizing the body
 });
+</script>
 ```
 
 **End Phú PT**
